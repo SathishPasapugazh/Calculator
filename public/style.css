@@ -118,11 +118,18 @@ body::after {
 	border-bottom: 1px solid rgba(255, 255, 255, 0.02);
 	border-right: 1px solid rgba(255, 255, 255, 0.02);
 }
+.keyboard div.btn#AC {
+	-ms-grid-column:1;
+	grid-column-start: 1;
+	grid-column-end: 3;
+}
+
 .keyboard div.btn#equal {
-	-ms-grid-column: 1;
+	-ms-grid-column:1;
 	grid-column-start: 3;
 	grid-column-end: 5;
 }
+
 .keyboard div.btn:hover {
 	-webkit-transition: 0.3s;
 	transition: 0.1s;

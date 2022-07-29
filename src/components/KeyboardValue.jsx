@@ -6,7 +6,6 @@ function KeyboardButton(props) {
   const keyboardValue = [
 {id: "AC", key: 1, value: "AC",  type: "btn"},
 {id: "DEL", key: 2, value: "Del", type:"btn" },
-{id: "%", key: 3, value: "%",   type:"operator" },
 {id: "/", key: 4, value: "/",   type:"operator" },
 {id: 7, key: 5, value: 7,     type:"number" },
 {id: 8, key: 6, value: 8,     type:"number" },
@@ -22,6 +21,7 @@ function KeyboardButton(props) {
 {id: "+", key: 16, value: "+",     type:"operator" },
 {id: ".", key: 17, value: ".",   type:"number" },
 {id: 0, key: 18, value: 0,     type:"number" },
+{id: "%", key: 20, value: "%",     type:"number" },
 {id: "=", key: 19, value: "=",   type:"operator" },
 ];
 
